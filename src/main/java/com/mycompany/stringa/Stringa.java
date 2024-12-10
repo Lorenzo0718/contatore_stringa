@@ -13,6 +13,9 @@ public class Stringa {
     public static void main(String[] args) {
         contatore_caratteri caratteri = new contatore_caratteri();
         
-        caratteri.numero_caratteri("lorenzo");
+        
+        caratteri.Input();
+        
+        caratteri.numero_caratteri();
     }
 }
